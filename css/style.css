@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Raleway|Open+Sans:400,600,300|Oswald");
+body {
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  font-size: 45pt;
+}
+h2 {
+  font-size: 30pt;
+}
+h3 {
+  font-size: 20pt;
+}
+p {
+  font-family: 'Open Sans';
+  font-size: 12pt;
+}
+.sidebar {
+  background-color: #fff;
+  font-family: 'Open Sans';
+  font-size: 11pt;
+}
+.submit {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard h1 {
+  font-family: 'Gentium Book Basic';
+  color: #11335d;
+  font-size: 3em;
+  font-weight: lighter;
+  margin: 0;
+  padding: 15px;
+}
+.nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 1em;
+}
+.nav li {
+  width: 80px;
+  margin: 0px 10px 0px 10px;
+  display: inline-block;
+  border-bottom: 2px solid #d3d3d3;
+  text-align: center;
+}
+.nav a {
+  text-decoration: none;
+  color: #11335d;
+}
+.nav a:hover {
+  color: #d3d3d3;
+}
+.container {
+  width: 100%;
+  margin-top: 30px;
+}
+.about {
+  background-image: url("../images/bg.jpg");
+  background-color: #11335d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-attachment: fixed;
+}
+.aboutText {
+  width: 80%;
+  margin: 50px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+.aboutText p {
+  font-size: 0.8em;
+  color: #11335d;
+}
+.about h2 {
+  font-family: 'Gentium Book Basic';
+  color: #11335d;
+  width: 80%;
+  font-size: 1.4em;
+}
+.about a {
+  width: 110px;
+  background-color: #fff;
+  color: #11335d;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 1em;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.about a:hover {
+  background-color: #eebd31;
+  color: #000;
+}
+.articlesIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.articlesIndex h3 {
+  font-family: 'Open Sans';
+  color: #11335d;
+}
+.articlePage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.pageHeader {
+  background-color: #fff;
+}
+.logo {
+  margin: 30px;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 5em;
+  color: #11335d;
+  text-align: center;
+}
+.logo img {
+  height: 70px;
+  display: inline;
+}
+.excerpt {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  font-family: 'Open Sans';
+  margin: 10px;
+  overflow: hidden;
+}
+.excerpt img {
+  width: 300px;
+  overflow: hidden;
+  opacity: 1;
+}
+.excerpt a {
+  text-decoration: none;
+  color: #000;
+}
+.excerpt img:hover {
+  opacity: 1;
+  -webkit-filter: blur(2px) saturate(1.2);
+}
+.excerpt-title {
+  font-size: 11pt;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+}
+.cardimgcrop {
+  background-color: #000;
+  border-color: #fff;
+}
+.excerpt-title span {
+  color: #fff;
+  letter-spacing: -1px;
+  background: #000;
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+}
+.categoryContainer {
+  background-color: #11335d;
+}
+.flex-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+}
+.page-header {
+  font-family: 'Gentium Book Basic';
+  color: #11335d;
+  text-align: center;
+  font-size: 1.7em;
+  padding-top: 15px;
+}
+.post-container {
+  max-width: 60%;
+  padding: 50px;
+  font-family: 'Open Sans';
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+  line-height: 200%;
+  box-shadow: 3px 3px 6px #888;
+  border: 1px solid #d3d3d3;
+}
+.post-title {
+  font-size: 2em;
+  font-family: 'Gentium Book Basic';
+  display: inline;
+}
+.post-title a {
+  text-decoration: none;
+  color: #000;
+}
+.post-author {
+  font-family: 'Open Sans';
+  font-size: 0.9em;
+}
+.post-meta {
+  display: inline;
+  font-size: 0.8em;
+  color: #808080;
+  float: right;
+}
+.post-content {
+  font-size: 1em;
+}
+.paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.pager a {
+  border: 1px solid #d3d3d3;
+  list-style: none;
+  width: 110px;
+  background-color: #fff;
+  color: #11335d;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 1em;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
