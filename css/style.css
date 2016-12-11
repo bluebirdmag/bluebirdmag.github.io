@@ -196,7 +196,7 @@ p {
   padding-top: 15px;
 }
 .post-container {
-  max-width: 60%;
+  width: 60%;
   padding: 50px;
   font-family: 'Open Sans';
   margin-top: 50px;
